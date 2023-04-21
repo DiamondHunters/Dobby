@@ -53,6 +53,6 @@ jobs:
       with:
         name: prebuilds
         path: |
-          build/dobby-linux-all.tar.gz
-          build/dobby-android-all.tar.gz
+          artifact/dobby-linux-all.tar.gz
+          artifact/dobby-android-all.tar.gz
           
