@@ -44,6 +44,7 @@ jobs:
 
     - name: print output
       run: |
+        tree
         md5sum `find build/linux |grep dobby.so`
         md5sum `find build/android  |grep dobby.so`
 
